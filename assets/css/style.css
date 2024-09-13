@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  max-width: 95%;
+}
+
+.card-image {
+  width: 200px;
+  object-fit: contain;
+  position: relative;
+  left: 50px;
+}
+
+.card-box {
+  width: 300px;
+  height: 300px;
+}
+
+.card-title-text {
+  text-align: center;
+  color: #000;
+}
+
+.card-lorem {
+  color: dimgray;
+}
+
+.text-price {
+  text-align: center;
+  color: #000;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
